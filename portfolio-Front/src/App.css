@@ -1,0 +1,27 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --primary: #000;
+    --secondary: rgb(24 24 27);
+    --border: rgba(63, 63, 70, 0.4)
+}
+.light {
+    --primary: #fff;
+}
+body {
+    background-color: var(--primary);
+    color: #9b3131;
+}
+.container {
+    border: 2px solid var(--border);
+    width: 80%;
+    margin: 0  auto;
+    background-color: var(--secondary);
+    
+
+}
